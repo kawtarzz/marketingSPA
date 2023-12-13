@@ -1,0 +1,37 @@
+.main li a {
+ color: #fffafa;
+}
+
+.navigation {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 1rem;
+}
+
+.navigation li {
+ display: inline-block;
+ margin-right: .9rem;
+}
+
+.navigation ul {
+ font-style: italic;
+ font-weight: 600;
+ text-transform: uppercase;
+ text-align: right;
+}
+
+.secondary li a {
+ background-color: #f89494;
+ font-size: .8rem;
+ color: #030220;
+ height: 4rem;
+ width: 100%
+}
+
+.navtext {
+ display: inline-block;
+ font-size: .7rem;
+ text-transform: uppercase;
+ text-align: left;
+}

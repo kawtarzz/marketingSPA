@@ -1,38 +1,93 @@
-.App {
+.section {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  height: 100vh;
+  width: auto;
+  overflow: hidden;
+}
+
+.landing-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/mountainphoto.jpg');
+  object-fit: cover;
+}
+
+.history-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/peak.jpg');
+  object-fit: cover;
+}
+
+p {
+  font-size: calc(10px + .5vmin);
+  color: #0a0c3e;
+  font-weight: 600;
+  letter-spacing: .2cap;
+}
+
+h1 {
+  font-size: calc(18px + 2vmin);
+  color: #0a0c3e;
+  font-weight: 900;
+  letter-spacing: .2cap;
+}
+
+.footer {
+  background-color: #0a0c3e;
+  color: #fffafa;
   text-align: center;
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  height: 8vmin;
+  pointer-events: all;
+  margin: .5 auto;
+  margin-top: .5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo:hover {
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+.schedule {
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin: 0 auto;
+  padding: 1rem 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 2rem 1rem;
 }
