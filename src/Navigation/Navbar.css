@@ -1,37 +1,92 @@
-.main li a {
- color: #fffafa;
-}
+  @import url("https://use.typekit.net/ijc1lvp.css");
 
-.navigation {
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding: 0 1rem;
-}
+  .main li a {
+   color: #fffafa;
+  }
 
-.navigation li {
- display: inline-block;
- margin-right: .9rem;
-}
+  .navigation {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 1rem;
+  }
 
-.navigation ul {
- font-style: italic;
- font-weight: 600;
- text-transform: uppercase;
- text-align: right;
-}
+  .navigation li {
+   display: inline-block;
+   margin-right: .9rem;
+  }
 
-.secondary li a {
- background-color: #f89494;
- font-size: .8rem;
- color: #030220;
- height: 4rem;
- width: 100%
-}
+  .navigation ul {
+   font-style: italic;
+   font-weight: 600;
+   text-transform: uppercase;
+   text-align: right;
+  }
 
-.navtext {
- display: inline-block;
- font-size: .7rem;
- text-transform: uppercase;
- text-align: left;
-}
+  .secondary li a {
+   font-size: 1rem;
+   color: #030220;
+   height: 4rem;
+   width: 100%
+  }
+
+  .secondary {
+   display: flex;
+   align-items: left;
+   padding: 1rem 1rem;
+  }
+
+  .secondary .logo {
+   width: 5em;
+   margin: 0 auto;
+  }
+
+
+  .navtext {
+   font-family: "bebas-neue", sans-serif;
+   font-size: 1rem;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin: 1rem .5rem;
+  }
+
+  .logo-container {
+   display: flex;
+   flex-direction: row;
+   text-align: left;
+   height: 8vmin;
+   pointer-events: all;
+   margin: .5 auto;
+   width: 10rem;
+  }
+
+  .footer {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   background-color: #414f6b;
+   color: #b1c5ed;
+   font-weight: 600;
+   padding: 0rem 0rem;
+   height: auto;
+  }
+
+  .footer .navtext {
+   flex-direction: row;
+   font-size: 1rem;
+   font-weight: 500;
+   text-transform: uppercase;
+  }
+
+  .footer .logo-container {
+   width: 10em;
+   margin: 1rem auto;
+   padding-right: 10rem;
+  }
+
+  .footer p {
+   text-align: right;
+   justify-content: flex-end;
+   margin-left: 20rem;
+   padding: 1rem 5rem;
+  }

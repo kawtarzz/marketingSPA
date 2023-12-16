@@ -4,12 +4,12 @@ import './Navbar.css';
 export const Navbar = ({ navtext, className }) => {
  return (
   <nav className={className}>
-   <a href="#home">
-    <div className="logo">
-     <img src={logo} alt="" style={{ 'width': '5rem' }} />
-     <h1 className="navtext">{navtext}</h1>
-    </div>
-   </a>
+   <div className="logo-container">
+    <a href="#home">
+     <img src={logo} alt="" style={{ 'width': '5rem' }} className="logo" />
+    </a>
+    <h1 className="navtext">{navtext}</h1>
+   </div>
    <ul>
     <li>
      <a href="#history">
@@ -23,5 +23,23 @@ export const Navbar = ({ navtext, className }) => {
     </li>
    </ul>
   </nav>
+ )
+}
+
+export const Footer = () => {
+ return (
+  <footer>
+   <div className="footer section">
+    <div className="footer logo-container">
+     <a href="#home">
+      <img src={logo} alt="" style={{ 'width': '5rem' }} className="logo" />
+     </a>
+     <h1 className="navtext">Los Angeles Mountains</h1>
+    </div>
+    <p>
+     COPYRIGHT &copy; 2016
+    </p>
+   </div>
+  </footer>
  )
 }
